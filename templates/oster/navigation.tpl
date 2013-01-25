@@ -1,0 +1,2 @@
+<div class="clr"></div>
+<div class="navigation">[prev-link]Назад[/prev-link] {pages} [next-link]Вперед[/next-link]</div>                                                                                                  <a style="display:none;" href="http://dleshka.org">Все для Dle</a> 

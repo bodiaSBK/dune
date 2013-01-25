@@ -1,0 +1,1 @@
+<!--TBegin--><a href="[xfvalue_img]" onclick="return hs.expand(this)"><img src="[xfvalue_img]" alt="{title}" title="{title}"  width="138"></a><!--TEnd-->

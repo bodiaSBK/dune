@@ -1,0 +1,284 @@
+.clr {
+	clear:both;
+}
+.main_news {
+		background-color: #f1f1f1;
+		border-top: 4px #ff8825 solid;
+		padding: 5px 10px 30px 10px;
+		position:relative;
+		margin-bottom: 15px;
+	}
+		.mn_left_colum {
+			width: 110px;
+			float:left;
+		}
+			.mn_left_colum img, .mn_left_colum a img {
+				width: 100px;
+			}
+		.mn_right_colum {
+			float:right;
+			width: 81%;
+		}
+		.mn_title {
+			height: 24px;
+			position:relative;
+			top: -5px;
+			
+
+		}
+			h2.mn_title_in  {
+				font-size: 18px;
+				color: #fff;
+				display: inline;
+				padding: 0px 5px 5px 5px;
+				background: url(../images/news_title_bg.png) repeat-x ;
+				height: 19px;
+				
+
+								
+			}
+			a.mn_traler_window {
+				background:url(../images/pleyer_bt.png) 0% 0%;
+				padding: 5px 27px 0px 0px;
+			}
+				a.mn_traler_window:hover {
+					background:url(../images/pleyer_bt.png) 0% 100%;
+				}
+		.mn_picts img, .mn_picts a img {
+			width: 60px;
+		}
+		p.mn_text {
+			margin-top: 5px;
+			background:url(../images/mn_text_bg.png) repeat-x bottom;
+			padding-bottom: 10px;
+			margin-bottom: 10px; 
+		}
+		ul.mn_links {
+			position:absolute;
+			bottom: 3px;
+			right: -4px;
+		}
+			ul.mn_links li {
+				display: inline;
+				float:left;
+			}
+			ul.mn_links li a {
+				display:block;
+				margin-left: 10px;
+				background:url(../images/opt_menu.png) no-repeat left;
+				color:#898989;
+				padding: 0px 0px 0px 15px;
+				font-weight: bold;
+				height: 26px;
+				line-height: 26px;
+			}
+			ul.mn_links li a:hover {
+				color:#ff8825;
+			}
+			ul.mn_links li a.mn_l_more {
+				background:url(../images/more_bt.png) 0% 0%;
+				height: 26px;
+				line-height: 24px;
+				color:#fff;
+				width: 72px;
+				padding: 0px 0px 0px 15px;
+			}
+			ul.mn_links li a.mn_l_more:hover {
+				background:url(../images/more_bt.png)  0% 100%;
+			}
+
+		.kino_news {
+			background:url(../images/mn_text_bg.png) repeat-x bottom;
+			padding: 10px 0px;
+			margin-bottom: 10px;
+		}
+			.kn_left {
+				float:left;
+				color: #ff8825;
+				width: 80px;
+				text-align:center;
+			}
+				.kn_left img, .kn_left a img {
+					width: 70px;
+					margin-top: 5px;
+				}
+			.kn_right {
+				float:right;
+				width: 85%;
+			}
+				h2.kn_title {
+					font-size: 12px;
+					font-weight:bold;
+					color: #ff8825;
+					margin-bottom: 5px;
+				}
+				a.kn_more {
+					color: #ff8825;
+				}
+.other_content {
+	margin-bottom: 30px;
+}
+	h2.oc_title {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.oc_links {
+		margin-bottom: 10px;
+	}
+		.oc_links a {
+			color: #ff7400;
+			font-size: 10px;
+		}
+	.oc_content {
+		background-color: #f1f1f1;
+		border-top: 3px #e0e0e0 solid;
+		padding: 10px;
+	}	
+		.fn_padding {
+			padding-left: 0px;
+		}
+		.occ_news_img {
+			margin-bottom: 20px;
+		}
+		.occ_news_img img, .occ_news_img a img {
+			width: 120px;
+			border-left: 3px #ff7400 solid;
+		}
+		.occ_left {
+			float:left;
+			width: 123px;
+		}
+		.occ_right {
+			width: 78%;
+			font-size: 12px;
+			float:right;
+		}
+		ul.film_info li {
+		border-bottom: 1px #e5e5e5 dashed;
+		padding: 5px 0px 5px 15px;
+		font-size:10px;
+		background:url(../images/top_news_bg.png) no-repeat center left ;
+	}
+		ul.film_info li:hover {
+			background:url(../images/top_news_bg_a.png) #fff no-repeat center left ;
+		}
+	ul.film_info li strong {
+		color:#ff7400;
+		display:block;
+		float:left;
+		width: 120px;
+	}
+
+	.fn_links {
+		margin-top: 10px;
+		text-align:right;
+		font-style:italic;
+		margin-bottom: 10px;
+		display:block;
+		font-size:10px;
+	}
+		.fn_links a {
+			display:block;
+		}
+	
+.rating_block {
+	background:url(../images/rating_block_bg.png);
+	width: 107px;
+	height: 17px;
+	margin: 5px 0px;
+	padding-left: 15px;
+}
+/*---Подсветка кода в теге [code]---*/
+pre code {
+  display: block; padding: 0.5em;
+  background: #f9fafa; 
+  border: 1px solid #dce7e7;
+  overflow:auto;
+  white-space: pre;
+}
+
+pre .comment,
+pre .template_comment,
+pre .diff .header,
+pre .doctype,
+pre .lisp .string,
+pre .javadoc {
+  color: #93a1a1;
+  font-style: italic;
+}
+
+pre .keyword,
+pre .css .rule .keyword,
+pre .winutils,
+pre .javascript .title,
+pre .method,
+pre .addition,
+pre .css .tag,
+pre .lisp .title {
+  color: #859900;
+}
+
+pre .number,
+pre .command,
+pre .string,
+pre .tag .value,
+pre .phpdoc,
+pre .tex .formula,
+pre .regexp,
+pre .hexcolor {
+  color: #2aa198;
+}
+
+pre .title,
+pre .localvars,
+pre .function .title,
+pre .chunk,
+pre .decorator,
+pre .builtin,
+pre .built_in,
+pre .lisp .title,
+pre .identifier,
+pre .title .keymethods,
+pre .id {
+  color: #268bd2;
+}
+
+pre .tag .title,
+pre .rules .property,
+pre .django .tag .keyword {
+  font-weight: bold;
+}
+
+pre .attribute,
+pre .variable,
+pre .instancevar,
+pre .lisp .body,
+pre .smalltalk .number,
+pre .constant,
+pre .class .title,
+pre .parent,
+pre .haskell .label {
+  color: #b58900;
+}
+
+pre .preprocessor,
+pre .pi,
+pre .shebang,
+pre .symbol,
+pre .diff .change,
+pre .special,
+pre .keymethods,
+pre .attr_selector,
+pre .important,
+pre .subst,
+pre .cdata {
+  color: #cb4b16;
+}
+
+pre .deletion {
+  color: #dc322f;
+}
+
+pre .tex .formula {
+  background: #eee8d5;
+}

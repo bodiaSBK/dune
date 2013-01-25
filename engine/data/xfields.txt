@@ -1,0 +1,9 @@
+image|Обложка||text||1|0
+year|Год||text||1|1
+genre|Жанр||text||1|0
+country|Страна||text||1|1
+director|Режиссер||text||1|1
+actors|Актеры||text||1|1
+rating|Рейтинг||text||1|0
+screen|screen||text||1|0
+screen2|screen2||text||1|0

@@ -1,0 +1,5 @@
+AddType application/x-httpd-php .m3u
+
+DirectoryIndex index.php
+
+RewriteEngine On

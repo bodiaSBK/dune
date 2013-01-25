@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Изменение значений атрибутов элементов</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+<script type="text/javascript">
+$('.showtvserial').live('click', function()
+{
+    $('.seria').attr('ip', $(this).attr('ip'));
+});
+</script>
+</head>
+<body>
+<div class="showtvserial" ip="192.168.1.100">ТВ 1</div>
+<div class="showtvserial" ip="192.168.1.101">ТВ 2</div>
+<div class="showtvserial" ip="192.168.1.102">ТВ 3</div>
+<div class="seria" ip="none">Серия 1</div>
+<div class="seria" ip="none">Серия 2</div>
+
+
+
+
+</body>
+
+</html>
