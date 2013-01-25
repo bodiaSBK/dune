@@ -2,11 +2,11 @@
 
 define ("DBHOST", "localhost"); 
 
-define ("DBNAME", "ivensart");
+define ("DBNAME", "dune");
 
-define ("DBUSER", "sbk");
+define ("DBUSER", "root");
 
-define ("DBPASS", "19061995");  
+define ("DBPASS", "root");
 
 define ("PREFIX", "dle"); 
 
