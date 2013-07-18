@@ -1,9 +1,6 @@
 <?php
-$host="localhost";
-$user="sbk";
-$pwd="19061995";
-$db=mysql_connect($host,$user,$pwd);
-mysql_select_db("ivensart",$db);
+include '../connect.php';
+
 $result = mysql_query("SELECT id, title, filename, checkbox, SUBSTRING_INDEX( SUBSTRING_INDEX( xfields, 'year|', -1 ) , '||', 1 ) AS year, SUBSTRING_INDEX( SUBSTRING_INDEX( xfields, 'screen2|', -1 ) , '||', 1 ) AS screen2, SUBSTRING_INDEX( SUBSTRING_INDEX( xfields, 'image|', -1 ) , '||', 1 ) AS image FROM dle_post") or die("Запрос не выполнен");
 $row = mysql_fetch_assoc($result);
 ?>

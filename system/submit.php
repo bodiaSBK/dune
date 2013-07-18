@@ -1,11 +1,8 @@
 <?php
-$host="localhost";
-$user="sbk";
-$pwd="19061995";
-$db=mysql_connect($host,$user,$pwd);
-mysql_select_db("ivensart",$db);
-$success = iconv('cp1251','utf-8',"<p align='center'><b>Текст страницы успешно обновлен!</b></p>");
-$unsuccess = iconv('cp1251','utf-8',"<p align='center'><b>Текст страницы не обновлен!</b></p>");
+include '../connect.php';
+
+$success = iconv('cp1251','cp1251',"<p align='center'><b>Текст страницы успешно обновлен!</b></p>");
+$unsuccess = iconv('cp1251','cp1251',"<p align='center'><b>Текст страницы не обновлен!</b></p>");
 
 
 

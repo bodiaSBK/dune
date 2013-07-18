@@ -290,7 +290,7 @@ $config = array (
 
 'version_id' => "9.5",
 
-'key' => "f8d194746f0d0e1ef3db0914f95710ed",
+'key' => "19760998c742aab3de02d111d4fd4c54",
 
 );
 

@@ -1,9 +1,9 @@
 <?php
 $host="localhost";
-$user="sbk";
-$pwd="19061995";
+$user="root";
+$pwd="Ax3Mig";
 $db=mysql_connect($host,$user,$pwd);
-mysql_select_db("ivensart",$db);
+mysql_select_db("dune",$db);
 $i=1;
 
 $result = mysql_query("SELECT * FROM dle_post WHERE filename = ''") or die("Запрос не выполнен");

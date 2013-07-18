@@ -2,11 +2,7 @@
 session_start();
 $ses_id = $_SESSION['user'];
 
-$host="localhost"; // Хост
-$user="sbk"; // юзер mysql
-$pwd="19061995"; // пароль юзера
-$db=mysql_connect($host,$user,$pwd); // инит конекта
-mysql_select_db("ivensart",$db); // имя базы
+include 'connect.php';
 
 $result = mysql_query("SELECT * FROM cart WHERE session = '$ses_id' ") or die("Запрос не выполнен");
 $row = mysql_fetch_assoc($result);

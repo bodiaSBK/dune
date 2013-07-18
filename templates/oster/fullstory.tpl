@@ -27,11 +27,11 @@
 				
                  <div>
 				 [category=29,27]
-                    <div newsid="{news-id}" ip="10.0.0.1" class="showtv">Телевизор 1</div>
-                    <div newsid="{news-id}" ip="10.0.0.2" class="showtv">Телевизор 2</div>
-                    <div newsid="{news-id}" ip="10.0.0.3" class="showtv">Телевизор 3</div>
-                    <div newsid="{news-id}" ip="10.0.0.4" class="showtv">Телевизор 4</div>
-                    <div newsid="{news-id}" ip="10.0.0.5" class="showtv">Телевизор 5</div>
+                    <div newsid="{news-id}" ip="192.168.1.100" class="showtv">Телевизор 1</div>
+                    <div newsid="{news-id}" ip="192.168.1.101" class="showtv">Телевизор 2</div>
+                    <div newsid="{news-id}" ip="192.168.1.102" class="showtv">Телевизор 3</div>
+                    <div newsid="{news-id}" ip="192.168.1.103" class="showtv">Телевизор 4</div>
+                    <div newsid="{news-id}" ip="192.168.1.104" class="showtv">Телевизор 5</div>
                  [/category]
 				 
 				 

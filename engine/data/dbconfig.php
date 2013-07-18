@@ -6,7 +6,7 @@ define ("DBNAME", "dune");
 
 define ("DBUSER", "root");
 
-define ("DBPASS", "root");
+define ("DBPASS", "Ax3Mig");
 
 define ("PREFIX", "dle"); 
 

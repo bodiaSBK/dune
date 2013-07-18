@@ -1,9 +1,8 @@
 <?php
-$host="localhost";
-$user="sbk";
-$pwd="19061995";
-$db=mysql_connect($host,$user,$pwd);
-mysql_select_db("ivensart",$db);
+header( 'Content-Type: text/html; charset=cp1251' );
+
+include 'connect.php';
+
 $i=1;
 
 $result = mysql_query("SELECT filename, title FROM dle_post") or die("Запрос не выполнен");

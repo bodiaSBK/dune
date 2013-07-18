@@ -1,10 +1,10 @@
 <?php
 
 $host="localhost"; // Хост
-$user="sbk"; // юзер mysql
-$pwd="19061995"; // пароль юзера
+$user="root"; // юзер mysql
+$pwd="Ax3Mig"; // пароль юзера
 $db=mysql_connect($host,$user,$pwd); // инит конекта
-mysql_select_db("ivensart",$db); // имя базы
+mysql_select_db("dune",$db); // имя базы
 
 $ip = "192.168.1.10";
 
