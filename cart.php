@@ -1,16 +1,16 @@
 <?php
 session_start();
-$ses_id = $_SESSION['user'];
+$ses_id = $_SESSION['user']; // Переменная с сессией
 
-include 'connect.php';
+include 'connect.php'; // настройки и соединение с базой
 
 $result = mysql_query("SELECT * FROM cart WHERE session = '$ses_id' ") or die("Запрос не выполнен");
 $row = mysql_fetch_assoc($result);
 $arr = explode(",",$row['news_id']);
 
 if(isset($_POST['clearplaylist'])){
-$sql = "UPDATE cart SET news_id='0' WHERE session = '$ses_id' ";
-$result = mysql_query($sql);
+	$sql = "DELETE FROM cart WHERE session = '$ses_id' ";
+	$result = mysql_query($sql);
 }
 
 if(isset($_POST['shuffleplaylist'])){
@@ -88,7 +88,7 @@ echo "<div class='playPlaylist' ip='192.168.1.102' ses=" . $ses_id . ">Третий</d
 echo "<div class='playPlaylist' ip='192.168.1.103' ses=" . $ses_id . ">Четвертый</div> ";
 echo "<div class='playPlaylist' ip='192.168.1.104' ses=" . $ses_id . ">Пятый</div> ";
 echo "<div class='clearPlayllist' onclick='shufflePlayllist(" . $ses_id . ")'>Перемешать</div> ";
-
+echo "<div style='clear: both;'></div> ";
 echo "<div id='content'>";
 echo "<table border=0> ";
 

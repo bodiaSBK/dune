@@ -6,7 +6,7 @@ $config = array (
 
 'home_title' => "няреп",
 
-'http_home_url' => "http://i.vensart.com/",
+'http_home_url' => "http://oster.pp.ua",
 
 'charset' => "windows-1251",
 
