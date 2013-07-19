@@ -47,6 +47,7 @@ $url = str_replace( '{tv-addr}', $addr, $url );
 
 
 $url = 'http://' . $addr . '/cgi-bin/do?cmd=start_file_playback&media_url=' . $url . stripslashes( mb_convert_encoding($row['filename'], "utf8", "windows-1251"));
+$url = str_replace(' ', '%20', $url);
 var_dump($url); //это конечный урл который будет на выходе уже после всех обработок
 
 if ( @file_get_contents( $url ) ) echo 'Success';
