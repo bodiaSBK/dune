@@ -18,7 +18,8 @@ $ses_id = ( $_REQUEST['ses'] > 0 ) ? intval( $_REQUEST['ses'] ) : 0;
 $addr = ( substr_count( $_REQUEST['addr'], '.' ) == 3 ) ? trim( $_REQUEST['addr'] ) : '-1';
 if ( $ses_id < 1 ) die( 'Error #1' );
 if ( $addr == '-1' ) die( 'Error #2' );
-$url = 'http://' .  $addr . '/cgi-bin/do?cmd=start_file_playback&media_url=' . $config['http_home_url'] . '/engine/ajax/showtvplaylist_gen.php?ses=' . $ses_id . '&addr=' . $addr;
+//$url = 'http://' .  $addr . '/cgi-bin/do?cmd=start_file_playback&media_url=' . $config['http_home_url'] . '/engine/ajax/showtvplaylist_gen.php?ses=' . $ses_id . '&addr=' . $addr;
+$url = 'http://' .  $addr . '/cgi-bin/do?cmd=start_playlist_playback&media_url=' . $config['http_home_url'] . '/tv/1/' . $ses_id . '.m3u';
 var_dump($url); //это конечный урл который будет на выходе уже после всех обработок
 if ( @file_get_contents( $url ) ) echo 'Success';
 

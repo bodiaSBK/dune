@@ -4,11 +4,7 @@ DirectoryIndex index.php
 
 RewriteEngine On
 
-RewriteRule ^tv/1/(.*).m3u$ /engine/ajax/showtvplaylist_gen.php?ses=$1&addr=192.168.1.100 [L]
-RewriteRule ^tv/2/(.*).m3u$ /engine/ajax/showtvplaylist_gen.php?ses=$1&addr=192.168.1.101 [L]
-RewriteRule ^tv/3/(.*).m3u$ /engine/ajax/showtvplaylist_gen.php?ses=$1&addr=192.168.1.102 [L]
-RewriteRule ^tv/4/(.*).m3u$ /engine/ajax/showtvplaylist_gen.php?ses=$1&addr=192.168.1.103 [L]
-RewriteRule ^tv/5/(.*).m3u$ /engine/ajax/showtvplaylist_gen.php?ses=$1&addr=192.168.1.104 [L]
+RewriteRule ^(.*).m3u$ showtvplaylist_gen.php?ses=$1&addr=192.168.1.100 [L]
 
 # Редиректы
 RewriteRule ^page/(.*)$ index.php?cstart=$1 [L]
