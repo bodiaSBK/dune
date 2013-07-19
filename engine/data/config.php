@@ -48,7 +48,7 @@ $config = array (
 
 'log_hash' => "0",
 
-'moviex_path' => "http://192.168.1.10/videos/",
+'moviex_path' => "http://192.168.1.10/media/",
 
 'safe_xfield' => "0",
 
